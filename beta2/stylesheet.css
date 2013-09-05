@@ -34,7 +34,7 @@ p {
     top: 100%;
     margin-top: -25px;
     margin-left: 5px;
-    color: rgba(255, 255, 255, 1.0);   
+    color: rgba(255, 255, 255, 0.20);   
 }
              
 canvas { 
@@ -67,7 +67,7 @@ canvas {
 
 .social p {
     margin-top: 3px;
-    color: rgba(255, 255, 255, 1.0);
+    color: rgba(255, 255, 255, 0.2);
 }
 
 .social a {
@@ -86,7 +86,7 @@ canvas {
 }
 
 .social a:hover, .social a:active {
-background: rgba(102, 102, 102, 0.3);
+background: rgba(102, 102, 102, 0.2);
 background-position: center;
     -webkit-background-size: 40px 40px;
 	-moz-background-size: 40px 40px;
@@ -110,7 +110,6 @@ background-image:url("../img/tumblr.png");
 background-image:url("../img/twitter.png");
 }
 
-/*
 .social a.behance, .social a.dribbble, .social a.tumblr, .social a.twitter {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 	filter: alpha(opacity=30);
@@ -126,7 +125,6 @@ transition: opacity 0.5s linear;
 	-ms-transition-delay: 0.5s;
 transition-delay: 0.5s;
 }
-*/
 
 .social a.behance:hover, .social a.dribbble:hover, .social a.tumblr:hover, .social a.twitter:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";

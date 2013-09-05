@@ -64,8 +64,9 @@ class Star {
    //fill(k, 100, 100, 100);
    
    // DEPTH IS ALPHA //
-   float c = map(z, -1600, 0, 20, 100);
-   fill(0, 0, 100, c);
+   float c = map(z, -(height*2), 0, 5, 100);
+   //fill(0, 0, 100, c);
+   fill(0, 0, c);
    
    noStroke();
    
