@@ -1,14 +1,21 @@
 body {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(245, 222, 99);
 }
 
 a, a:link, a:visited, a:active, a:hover { 
-		color: #fff; text-decoration: underline;
+    color: rgb(41, 209, 175);
+    text-decoration: underline;
 }
 
 p, h1 {
     font-family: MuseoSlab-500, sans-serif;
-    color:#FFF;
+    color:rgb(255, 109, 99);
+}
+
+h3 {
+    font-family: MuseoSlab-500, sans-serif;
+    color:rgb(0, 182, 142);
+    font-size: 36;
 }
 
 p {
@@ -20,22 +27,14 @@ p {
     top:50%;
     left: 50%;
     height: 54px;
-    width: 426px;
+    width: 700px;
     margin-top: -27px;
+    /*margin-left: -280px;*/
     margin-left: -213px;
     z-index: 1;
 
     font-size:72px;
-	text-align:center;
-}
-
-.beta {
-    position: absolute;
-    top: 0%;
-    left: 100%;
-    margin-top: 10px;
-    margin-left: -105px;
-    color: rgba(255, 255, 255, 0.20);  
+    text-align:left;
 }
 
 .info {
@@ -43,9 +42,9 @@ p {
     top: 100%;
     margin-top: -25px;
     margin-left: 5px;
-    color: rgba(255, 255, 255, 0.20);   
+    color: rgb(255, 109, 99);
 }
-             
+
 canvas { 
     display: block;
     position: fixed;
@@ -54,7 +53,11 @@ canvas {
 }
 
 #content { 
-		width: 100%; min-width: 300px; height: 100%; min-height: 300px; overflow: auto;
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    min-height: 300px;
+    overflow: auto;
 }
 
 .social {
@@ -79,73 +82,51 @@ canvas {
     color: rgba(255, 255, 255, 0.2);
 }
 
-.social a {
-    display: inline-block;
-    width: 106px;
-    height: 54px;
-    overflow: hidden;
-    margin: 0px -2px 0px -2px;
-    
-    border-radius: 2px;
-    background-position: center;
-        -webkit-background-size: 40px 40px;
-        -moz-background-size: 40px 40px;
-    background-size: 40px 40px;
-    background-repeat: no-repeat;
+#entypo {
+font-family:'entypo';
+font-size: 3em;
+text-decoration: none;
 }
 
-.social a:hover, .social a:active {
-background: rgba(102, 102, 102, 0.2);
-background-position: center;
-    -webkit-background-size: 40px 40px;
-	-moz-background-size: 40px 40px;
-background-size: 40px 40px;
-background-repeat: no-repeat; 
+/* CODEDROPS BUTTON CLASSES */
+
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+    height: 50px;
+    width: 100px;
+    margin: 0 0 0 5px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    float: left;
 }
 
-.social a.linkedin {
-background-image:url("../img/linkedin.png");
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-.social a.behance {
-background-image:url("../img/behance.png");
+.btn-1 {
+	border: 3px solid rgb(255, 109, 99);
+	color: rgb(255, 109, 99);
 }
 
-.social a.dribbble {
-background-image:url("../img/dribbble.png");
-}
-
-.social a.tumblr {
-background-image:url("../img/tumblr.png");
-}
-
-.social a.twitter {
-background-image:url("../img/twitter.png");
-}
-
-.social a.linkedin, .social a.behance, .social a.dribbble, .social a.tumblr, .social a.twitter {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-	filter: alpha(opacity=30);
-opacity: 0.3;
-    -webkit-transition: opacity 0.5s linear;
-	-moz-transition: opacity 0.5s linear;
-	-o-transition: opacity 0.5s linear;
-	-ms-transition: opacity 0.5s linear;
-transition: opacity 0.5s linear;
-    -webkit-transition-delay: 0.5s;
-	-moz-transition-delay: 0.5s;
-	-o-transition-delay: 0.5s;
-	-ms-transition-delay: 0.5s;
-transition-delay: 0.5s;
-}
-
-.social a.linkedin:hover, .social a.behance:hover, .social a.dribbble:hover, .social a.tumblr:hover, .social a.twitter:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
-opacity: 1;
-    -webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	-ms-transition: none;
-transition: none;
+.btn-1a:hover,
+.btn-1a:active {
+	color: rgba(245, 222, 99, 0);
+    background: rgb(255, 109, 99);
 }
