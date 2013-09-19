@@ -128,16 +128,16 @@ background-image:url("../img/twitter.png");
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 	filter: alpha(opacity=30);
 opacity: 0.3;
-    -webkit-transition: opacity 0.5s linear;
-	-moz-transition: opacity 0.5s linear;
-	-o-transition: opacity 0.5s linear;
-	-ms-transition: opacity 0.5s linear;
-transition: opacity 0.5s linear;
-    -webkit-transition-delay: 0.5s;
-	-moz-transition-delay: 0.5s;
-	-o-transition-delay: 0.5s;
-	-ms-transition-delay: 0.5s;
-transition-delay: 0.5s;
+    -webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+transition: opacity 0.3s linear;
+    -webkit-transition-delay: 0.3s;
+	-moz-transition-delay: 0.3s;
+	-o-transition-delay: 0.3s;
+	-ms-transition-delay: 0.3s;
+transition-delay: 0.3s;
 }
 
 .social a.linkedin:hover, .social a.behance:hover, .social a.dribbble:hover, .social a.tumblr:hover, .social a.twitter:hover {

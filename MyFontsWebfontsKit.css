@@ -25,8 +25,19 @@
 
 
   
-@font-face {font-family: 'MuseoSlab-500';src: url('webfonts/273E8C_0_0.eot');src: url('webfonts/273E8C_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/273E8C_0_0.woff') format('woff'),url('webfonts/273E8C_0_0.ttf') format('truetype');}
+@font-face {
+    font-family: 'MuseoSlab-500';
+    src: url('webfonts/273E8C_0_0.eot');
+    src: url('webfonts/273E8C_0_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/273E8C_0_0.woff') format('woff'),
+    url('webfonts/273E8C_0_0.ttf') format('truetype');
+}
  
   
-@font-face {font-family: 'MuseoSlab-500Italic';src: url('webfonts/273E8C_1_0.eot');src: url('webfonts/273E8C_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/273E8C_1_0.woff') format('woff'),url('webfonts/273E8C_1_0.ttf') format('truetype');}
+@font-face {
+    font-family: 'MuseoSlab-500Italic';
+    src: url('webfonts/273E8C_1_0.eot');
+    src: url('webfonts/273E8C_1_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/273E8C_1_0.woff') format('woff'),
+    url('webfonts/273E8C_1_0.ttf') format('truetype');}
  
