@@ -1,0 +1,43 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
+
+
+.menubar {
+    width:800px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.menutab {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    margin:10px;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	background:#ff526f;
+	color:white;
+}
+
+a:active {
+	text-decoration: none;
+	background:#ff526f;
+	color:white;
+}

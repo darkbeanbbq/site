@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #faf4e0;
+	color: #4561f2;
+	font-family: 'DM Serif Text', serif;
+	font-size: 16px;
+}
+
+::selection {
+	color: #faf4e0; /* f4dce5 */
+	background-color: #4561f2; /* rouge-rose f24584 ou bleu 4561f2 */
+}
+
+.conteneur {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header,
+.contenu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; /* histoire que ça m'arrange pour l'exemple */
+}
+
+.titre-header {
+	font-size: 6em;
+}
+
+.header {
+	/* padding: haut | droit | bas | gauche */
+	padding: 6em 2em 2em 2em;
+	padding-bottom: 25px;
+}
+
+.image {
+	width: 800px;
+	height: 600px;
+	background-color: #4561f2;
+}
+
+.conteneur-boite {
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em 1em;
+}
+
+.boite {
+	margin: 0 0.2em 0 0.2em;
+	height: 50px;
+	border: 0.3em solid #4561f2;
+	justify-content: space-between;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.boite:hover {
+	background-color: #4561f2;
+}
+
+.footer {
+	font-family: 'Major Mono Display', monospace;
+	font-size: 2em;
+}

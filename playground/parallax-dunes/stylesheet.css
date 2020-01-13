@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  width: 100vw;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+/* @media (max-width: 768px) */
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  /* does not seem to work */
+  .mobile-header {
+    display: block;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.header {
+  /* min-height: 575px; */
+  min-height: 1000px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.mobile-header {
+  display: none;
+  /* min-height: 575px; */
+  min-height: 1000px;
+  height: auto;
+  background-image: url("img/dunes.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layer {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* min-height: 575px; */
+  min-height: 1000px;
+  height: auto;
+  position: fixed;
+  z-index: -1;
+}
+
+.layer-bg {
+  background-image: url("img/dunes_bg_small.png");
+}
+.layer-one {
+  background-image: url("img/dunes_001.png");
+}
+.layer-two {
+  background-image: url("img/dunes_002.png");
+}
+.layer-title {
+  background-image: url("img/dunes_title.gif");
+}
+.layer-three {
+  background-image: url("img/dunes_003.png");
+}
+.layer-four {
+  background-image: url("img/dunes_004.png");
+}
+
+.content {
+  background-color: #c1a7d7;
+  min-height: 2000px;
+}

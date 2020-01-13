@@ -1,0 +1,26 @@
+html, body { 
+    /* setting html and body to 100% height required for divs to be 100% height */
+    height: 100%;
+    margin: 0px;
+    /* CSS smooth scrolling is not supported in IE and Safari */
+    scroll-behavior: smooth;
+}
+.container {
+    height: 100%;
+}
+
+#philosophy {
+    background-color: aquamarine;
+}
+
+#workshop {
+    background-color: antiquewhite;
+}
+
+#wemade {
+    background-color: dodgerblue;
+}
+
+#contact {
+    background-color: #ff4545;
+}
