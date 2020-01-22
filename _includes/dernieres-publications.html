@@ -1,0 +1,10 @@
+<!-- affiche les trois dernières publications du blog -->
+
+<ul>
+{% for post in site.posts limit:3 %}
+<li>
+  <h4><a href="{{ post.url }}">{{ post.titre }}</a></h4>
+  <p>{{ post.excerpt }}</p>
+</li>
+{% endfor %}
+</ul>

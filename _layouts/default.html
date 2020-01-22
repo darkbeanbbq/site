@@ -1,0 +1,15 @@
+<DOCTYPE html>
+<html lang="fr">
+  <head>
+		<meta charset='UTF-8'/>
+    <title>{{ page.titre }}</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    {% include navigation.html %}
+
+		{{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>

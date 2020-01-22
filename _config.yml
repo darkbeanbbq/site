@@ -1,0 +1,19 @@
+collections:
+  portfolio:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "projet"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
