@@ -5,18 +5,31 @@
 } */
 
 /* COULEURS
-
 ROSE-ROUGE #ff5471
+*/
 
+/* REF
+1em = font-size = 16px
 
 */
 
+* {
+	box-sizing: border-box;
+}
+
 body, td, th {
-	font-family: monospace;
+	font-family: 'Iosevka Web', monospace;
 	font-size: 16px;
 	color: black;
+	max-width: 76em;
 	text-align: left;
-  margin: 50px;
+  margin: 3.2em; /* 50px */
+	/* margin: 0 auto; */
+}
+
+p {
+	max-width: 42em;
+	line-height: 1.5;
 }
 
 a:link {
@@ -27,4 +40,35 @@ a:link {
 a:visited {
 	text-decoration: underline;
 	color: #000;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.25em 0.5em;
+}
+
+nav a:link {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	background-color: #ff5471;
+	border-radius: 2px;
+}
+
+.img-profile {
+	max-width: 18em; /* 300px */
+	border-radius: 50%;
+}
+
+.img-portfolio {
+	max-width: 100%;
+	border-radius: 2px;
+}
+
+.footer {
+	margin-top: 5em;
+	padding-top: 0.2em;
+	border-top: 1px solid #000;
 }
