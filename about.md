@@ -1,5 +1,5 @@
 ---
-titre: à propos
+title: à propos
 ---
 
 # À propos
