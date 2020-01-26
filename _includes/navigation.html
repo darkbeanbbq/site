@@ -1,6 +1,7 @@
 <nav>
-  <a href="/">🏠 accueil</a>
-  <a href="/blog.html">📃 blog</a>
-  <a href="/portfolio.html">🖌️ portfolio</a>
-  <a href="/about.html">👨‍🏫 à propos</a>
+	{% for item in site.data.navigation %}
+		<a href="{{ item.link }}" {% if page.url == item.link %} id="current" {% endif %}>
+	    {{ item.name }}
+	  </a>
+	  {% endfor %}
 </nav>
