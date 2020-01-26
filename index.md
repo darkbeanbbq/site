@@ -1,5 +1,5 @@
 ---
-titre: accueil
+title: accueil
 ---
 
 # darkbean.io
@@ -11,8 +11,8 @@ Je touche à tout et créer à base de dessins et d'animation 🖌️, et
 
 [//]: # Vous connaissez peut-être déjà mes [gifs]() ou mes ...
 
-[//]: # où sont les atelier créatifs, la fabrication manuel etc. ?
+[//]: # où sont les ateliers créatifs, la fabrication manuel etc. ?
 
 ### dernières publications
 
-{% include dernieres-publications.html %}
+{% include latest-posts.html %}
