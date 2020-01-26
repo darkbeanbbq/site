@@ -1,7 +1,7 @@
 ---
 layout: post
-titre: Retour sur la toile et chantier numérique
-auteur: darkbean
+title: Retour sur la toile et chantier numérique
+author: darkbean
 ---
 
 Après plus de 7 ans sans avoir touché à mon site je remet les main dans le html et le css pour de lui donner un nouveau souffle et afin de mieux pouvoir organiser et maîtriser le partage de mes travaux et de mes pensées. À cette occasion et pour inaugurer ce blog je me suis dit que que je raconterai comment je m'y prend.
