@@ -1,0 +1,13 @@
+<ul>
+{% for friend in site.data.friendlist %}
+  <li>
+    <a href="{{ friend.link }}">
+      {{ friend.name }}
+    </a>
+		
+    {% if friend.description %}
+    <p> {{ friend.description }} </p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
