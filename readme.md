@@ -2,10 +2,12 @@
 
 ## _includes
 
-`dernieres-publications.html` : intégre dernières publications blog
-
+`latest-posts.html` : intégre dernières publications blog
 `navigation.html` : menu de navigation
+`footer.html` : liens de bas de page
+`friendlist.html` : liste d'amis
 
 ## _data
 
-`amis.yml` : liste d'amis
+`friendlist.yml` : liste d'amis
+`navigation.yml` : menu de navigation
