@@ -1,7 +1,7 @@
 ---
 title: blog
 ---
-# dernières publications
+## Blog
 
 <ul>
   {% for post in site.posts %}

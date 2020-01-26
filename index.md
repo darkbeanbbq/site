@@ -2,7 +2,7 @@
 title: accueil
 ---
 
-# darkbean.io
+## darkbean.io
 
 Bonjour,
 Je m'appelle Alexandre, je suis designer 💡, créateur et bidouilleur 🛠️.
