@@ -1,4 +1,4 @@
 ---
-titre: Processing music viz
-annee: '2014-2015'
+title: Processing music viz
+year: '2014-2015'
 ---

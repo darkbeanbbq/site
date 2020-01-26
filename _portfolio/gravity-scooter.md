@@ -1,4 +1,4 @@
 ---
-titre: Gravity scooter
-annee: '2020'
+title: Gravity scooter
+year: '2020'
 ---
