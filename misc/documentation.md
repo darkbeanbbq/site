@@ -1,6 +1,6 @@
 ---
 layout: default
-titre: documentation
+title: documentation
 ---
 
 # documentation

@@ -1,6 +1,6 @@
 ---
 layout: default
-titre: graphisme
+title: graphisme
 ---
 
 # animation et graphisme

@@ -1,6 +1,6 @@
 ---
 layout: default
-titre: code
+title: code
 ---
 
 # design et code
