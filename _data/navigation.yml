@@ -1,1 +1,10 @@
-data navigation à ajouter, voir [tuto jekyll](https://jekyllrb.com/docs/step-by-step/06-data-files/)
+- name: 🏠 accueil
+  link: /
+- name: 📃 blog
+  link: /blog.html
+- name: 🖌️ portfolio
+  link: /portfolio.html
+- name: 👌 amis
+  link: /friends.html
+- name: 👨‍🏫 à propos
+  link: /about.html
