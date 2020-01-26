@@ -32,6 +32,10 @@ p {
 	line-height: 1.5;
 }
 
+#current {
+	color: #ff5471;
+}
+
 a:link {
 	text-decoration: underline;
 	color: #000;
@@ -44,17 +48,7 @@ a:visited {
 
 nav a {
 	display: inline-block;
-	padding: 0.25em 0.5em;
-}
-
-nav a:link {
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: #fff;
-	background-color: #ff5471;
-	border-radius: 2px;
+	margin: 0.25em 0.5em;
 }
 
 .img-profile {
