@@ -2,12 +2,13 @@
 title: portfolio
 ---
 
-<ul>
-  {% for projet in site.portfolio %}
-  <li>
-    <h2><a href="{{ projet.url }}">{{ projet.titre }}</a></h2>
-    <p>{{ projet.annee }}</p>
-    <p>{{ projet.excerpt }}</p>
-  </li>
+<div>
+  {% for project in site.portfolio %}
+  <div>
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    <p>{{ project.year }}</p>
+    <img src="/assets/images/project/{{ project.thumbnail }}" class="img-portfolio">
+    <p>{{ project.excerpt }}</p>
+  </div>
   {% endfor %}
-</ul>
+</div>
