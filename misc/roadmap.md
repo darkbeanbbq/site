@@ -7,3 +7,4 @@
 - voir tuto jekyll site multilingue
 - voir tuto jekyll featured image
 - finir premier blog (texte + dessins)
+- voir comment organiser dossiers de documentation (guides, fiches) et veille (fiches à thématique, typothèque à license libre) 
