@@ -7,14 +7,18 @@
 		<link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    <div class="header">
-      {% include navigation.html %}
-    </div>
-    <div>
-		    {{ content }}
-    </div>
-    <div class="footer">
-      {% include footer.html %}
-    </div>
+		<div class="page">
+			<div class="column">
+    		<div class="header">
+      		{% include navigation.html %}
+    		</div>
+    		<div class="content">
+		    	{{ content }}
+    		</div>
+    		<div class="footer">
+      		{% include footer.html %}
+    		</div>
+			</div>
+		</div>
   </body>
 </html>
