@@ -21,14 +21,24 @@ body, td, th {
 	font-family: 'Iosevka Web', monospace;
 	font-size: 16px;
 	color: black;
-	max-width: 76em;
-	text-align: left;
   margin: 3.2em; /* 50px */
 	/* margin: 0 auto; */
 }
 
+.page {
+width: 100%;
+}
+
+.column {
+	max-width: 52em;
+	margin: 0 auto;
+}
+
+/* .content {
+	max-width: 55em;
+} */
+
 p {
-	max-width: 42em;
 	line-height: 1.5;
 }
 
