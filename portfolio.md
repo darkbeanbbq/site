@@ -2,6 +2,8 @@
 title: portfolio
 ---
 
+Ici vous trouverez mes projets et réalisations, qu'ils soient pro, perso, ou simplement des expérimentations poussées.
+
 <div>
   {% for project in site.portfolio %}
   <div>
