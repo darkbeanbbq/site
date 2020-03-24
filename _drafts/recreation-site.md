@@ -6,6 +6,8 @@ author: darkbean
 
 Après plus de 7 ans sans avoir touché à mon site je remet les mains dans le HTML et le CSS pour lui donner un nouveau souffle et afin de mieux pouvoir organiser et maîtriser le partage de mes travaux et de mes pensées sur internet. À cette occasion et pour inaugurer ce blog je me suis dit que que je raconterai comment je m'y prend.
 
+-- je veux aussi pouvoir travailler dessus hors-ligne (dans ma logique de temps de connexion maitrisé et régulé/diminué)
+
 Comme pour beaucoup de choses j'aime faire moi-même pour apprendre et pour nourrir ma compréhension des choses. Pour mon site l'objectif était d'avoir quelque chose de pas trop difficile à mettre en place, que je peux entretenir aussi facilement que des fichiers texte sur mon ordinateur et que je puisse le faire évoluer au fur et à mesure que j’apprends à mieux dompter le langage du web. C'est ainsi qu'après des recherches, des rencontres et des discussions j'ai opté pour l'option *générateur de site statique*.
 
 générateur de site statique, c'est quoi, pourquoi, pour qui ?
