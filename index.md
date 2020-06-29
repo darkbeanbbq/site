@@ -12,4 +12,6 @@ Vous connaissez peut-être déjà [mes gifs animés](https://giphy.com/darkbean)
 
 [//]: # ### dernières publications
 
-[//]: # {% include latest-posts.html %}
+{% comment %}
+{% include latest-posts.html %}
+{% endcomment %}
