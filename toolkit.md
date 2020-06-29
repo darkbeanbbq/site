@@ -1,3 +1,3 @@
 # Le toolkit créatif libre
 
-voir le site du [mediatelier](mediatelier.cc)
+voir le site du [mediatelier](https://mediatelier.cc)
