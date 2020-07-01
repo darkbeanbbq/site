@@ -6,12 +6,8 @@ title: accueil
 
 Bienvenue dans mon petit coin du web.
 
-Ici je cultive mon petit jardin numérique. J'utilise cette espace pour expérimenter avec du code, pour écrire des choses, et y fait pousser des plantes
+Ici je cultive mon petit jardin numérique. J'utilise cette espace pour expérimenter avec du code, pour écrire des choses, et partager
 
-Bonjour,
-Je m'appelle Alexandre, je suis designer 💡, créateur et bidouilleur 🛠️.
-Je touche à tout et créer à base de dessins et d'animation 🖌️, et
-à partir de code aussi 🖥️.
 
 [//]: # Vous connaissez peut-être déjà mes [gifs]() ou mes ...
 

@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html lang="fr">
+  <head>
+		<meta charset='UTF-8'/>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/webfont.css">
+		<link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+		<div class="page">
+			<div class="column">
+    		<div class="header">
+					<!-- centered spinning computer gif inside circle-->
+      		{% include navigation.html %}
+    		</div>
+    		<div class="content">
+		    	{{ content }}
+    		</div>
+    		<div class="footer">
+      		{% include footer.html %}
+    		</div>
+			</div>
+		</div>
+  </body>
+</html>
