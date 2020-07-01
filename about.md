@@ -7,12 +7,16 @@ thumbnail: /assets/images/profile/vroom.webp
 
 <img src=" {{ page.thumbnail }}" class="img-profile">
 
-envie de transmettre et de faire découvrir
+Je m'appelle Alexandre, je suis designer, créateur et bidouilleur.
+Je touche à tout et créer à base de dessins et d'animation, et
+à partir de code aussi...
 
-maîtriser ses outils et créer par soi-même
+- envie de transmettre et de faire découvrir
 
-logiciels libres et culture du partage
+- maîtriser ses outils et créer par soi-même
 
-apprendre par le faire
+- logiciels libres et culture du partage
 
-le numérique mais pas que
+- apprendre par le faire
+
+- le numérique mais pas que
