@@ -1,10 +1,10 @@
 - name: 🏠 accueil
   link: /
-- name: 📃 blog
-  link: /blog.html
+#- name: 📃 blog
+#  link: /blog.html
 - name: 🖌️ projets
   link: /portfolio.html
-- name: 👌 amis
-  link: /friends.html
+#- name: 👌 amis
+#  link: /friends.html
 - name: 👨‍🏫 à propos
   link: /about.html
