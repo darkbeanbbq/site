@@ -1,0 +1,76 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* COULEURS
+ROSE-ROUGE #ff5471
+*/
+
+/* REF
+1em = font-size = 16px
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body, td, th {
+	font-family: 'Iosevka Web', monospace;
+	font-size: 16px;
+	color: black;
+  margin: 3.2em; /* 50px */
+	/* margin: 0 auto; */
+  text-align: center
+}
+
+.page {
+width: 100%;
+}
+
+.column {
+	max-width: 52em;
+	margin: 0 auto;
+}
+
+/* .content {
+	max-width: 55em;
+} */
+
+p {
+	line-height: 1.5;
+}
+
+#image-profile {
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bouton {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 3px solid #4CAF50; /* Green */
+  border-radius: 3px;
+  padding: 15px 32px;
+  margin: 0.5em 0 0.5em 0;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+
+
+  font-size: 1em;
+  max-width: 500px;
+}
+
+.bouton:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
